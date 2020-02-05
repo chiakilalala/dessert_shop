@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sweetaste</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="stylesheets/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/logo-dark.png">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <button class="navbar-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <a href="index.html" class="navbar-logo">
+                <h1>Sweetaste*</h1>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="">
+                    <a href="index.html">首頁</a>
+                </li>
+                <li class="">
+                    <a href="shop.html">甜點</a>
+                </li>
+                <li class="">
+                    <a href="login.html">登入</a>
+                </li>
+            </ul>
+
+            <div class="navbar-cart">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="checkout-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-12 checkout-form checkout-form3">
+                    <div class="row d-flex justify-content-start">
+                        <div class="col-6 form-header">
+                            <h2>付款</h2>
+                        </div>
+                        <div class="col-6 form-progress">
+                            <i class="material-icons">check_circle</i>
+                            <i class="material-icons">check_circle</i>
+                            <i class="material-icons">radio_button_checked</i>
+                        </div>
+                    </div>
+                    <div class="btn-group checkout-btn" role="group">
+                        <a href="checkout-3-1.html" class="btn active">電子發票</a>
+                        <a href="checkout-3-2.html" class="btn">郵寄發票</a>
+                    </div>
+                    <!-- form -->
+                    <form class="form-content">
+                        <div class="form-group">
+                            <label for="email">電子郵件信箱</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="num">統一編號（選填）</label>
+                            <input type="number" class="form-control" id="num" placeholder="12345678">
+                        </div>
+                    </form>
+
+                    <a href="checkout-success.html">
+                        <div class="next-step-btn">確認結帳</div>
+                    </a>
+
+                </div>
+
+                <div class="col-md-4 col-12 checkout-info">
+                    <div class="order-info">
+                        <div class="order-info-header">訂單摘要</div>
+                        <div class="order-info-content">
+                            <div class="table-row">
+                                <span>小計</span>
+                                <span>NT$ 2,700</span>
+                            </div>
+                            <div class="table-row">
+                                <span>運費</span>
+                                <span>NT$ 300</span>
+                            </div>
+                            <div class="table-row">
+                                <span>總計</span>
+                                <span>NT$ 3,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-list">
+                        <div class="order-list-header">購物清單</div>
+                        <div class="order-list-content">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="list-content-img pic1"></div>
+                                </div>
+                                <div class="col-6 list-content-text">
+                                    <span>焦糖馬卡龍（2）</span>
+                                    <span>NT$ 450</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="list-content-img pic2"></div>
+                                </div>
+                                <div class="col-6 list-content-text">
+                                    <span>焦糖馬卡龍（2）</span>
+                                    <span>NT$ 450</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="list-content-img pic3"></div>
+                                </div>
+                                <div class="col-6 list-content-text">
+                                    <span>焦糖馬卡龍（2）</span>
+                                    <span>NT$ 450</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="subscribe">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12 sub-slogan">
+                    <img src="images/logo-light.svg" class="sub-img">
+                    <span class="content-title">訂閱你我的甜蜜郵件</span>
+                </div>
+                <div class="col-md-6 col-11 sub-email">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-default"><i class="fas fa-envelope"></i></span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                        <button class="send-follow" type="button"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 left-style">
+                    <div class="footer-logo">
+                        <img src="images/logotype-lg-dark.svg">
+                    </div>
+                    <div class="footer-content">
+                        07-1234-5678 <br>
+                        sweetaste@email.com <br>
+                        800 高雄市新興區幸福路 520 號 <br>
+                        <img src="images/ic-line@.svg">
+                        <img src="images/ic-facebook.svg">
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 right-style">
+                    <div class="footer-slogan">
+                        <img src="images/footer-slogan.svg">
+                    </div>
+                    <p>© 2018 Sweetaste* All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="javascripts/vendor.js"></script>
+</body>
+
+</html>
